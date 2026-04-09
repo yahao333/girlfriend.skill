@@ -12,7 +12,7 @@
 <br>
 
 Your bestie knows you better than anyone —
-she reads your texts,知道你话里有话，
+she reads your texts, knows when there's more behind your words,
 she shows up with snacks when you're sad,
 and tells you the truth everyone else is too afraid to say.
 
@@ -50,8 +50,6 @@ and get an **AI Skill that carries her friendship essence**
 git clone https://github.com/yahao333/girlfriend.skill ~/.claude/skills/girlfriend
 ```
 
----
-
 ## 使用
 
 在 Claude Code 中输入：
@@ -60,15 +58,13 @@ git clone https://github.com/yahao333/girlfriend.skill ~/.claude/skills/girlfrie
 /girlfriend
 ```
 
-
-### 命令
+### 管理命令
 
 | 命令 | 说明 |
 |------|------|
-| `/girlfriend` | 调用完整 Skill |
-| `/girlfriend-gossip` | 八卦模式 |
-| `/girlfriend-advice` | 姐妹建议模式 |
-| `/girlfriend-roast` | 毒舌吐槽模式 |
+| `/girlfriend` | 调用 Girlfriend Skill 创建器 |
+| `/list-girlfriends` | 列出所有已创建的 Girlfriend Skill |
+| `/delete-girlfriend {slug}` | 删除指定 Girlfriend Skill |
 
 ---
 

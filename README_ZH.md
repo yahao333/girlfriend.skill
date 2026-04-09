@@ -1,6 +1,6 @@
 <div align="center">
 
-# 闺蜜.skill
+# girlfriend.skill
 
 > *"闺蜜就是那个会骂醒你的人，也是会陪你哭到傻逼的人。"*
 
@@ -50,8 +50,6 @@
 git clone https://github.com/yahao333/girlfriend.skill ~/.claude/skills/girlfriend
 ```
 
----
-
 ## 使用
 
 在 Claude Code 中输入：
@@ -60,14 +58,13 @@ git clone https://github.com/yahao333/girlfriend.skill ~/.claude/skills/girlfrie
 /girlfriend
 ```
 
-### 命令
+### 管理命令
 
 | 命令 | 说明 |
 |------|------|
-| `/girlfriend` | 调用完整 Skill |
-| `/girlfriend-gossip` | 八卦模式 |
-| `/girlfriend-advice` | 姐妹建议模式 |
-| `/girlfriend-roast` | 毒舌吐槽模式 |
+| `/girlfriend` | 调用 Girlfriend Skill 创建器 |
+| `/list-girlfriends` | 列出所有已创建的 Girlfriend Skill |
+| `/delete-girlfriend {slug}` | 删除指定 Girlfriend Skill |
 
 ---
 
