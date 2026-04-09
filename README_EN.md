@@ -2,7 +2,7 @@
 
 # girlfriend.skill
 
-> *"A best friend is someone who loves you when you forget to love yourself."*
+> *"闺蜜就是那个会骂醒你的人，也是会陪你哭到傻逼的人。"*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://python.org)
@@ -11,20 +11,20 @@
 
 <br>
 
-Your bestie knows you better than anyone —
-she reads your texts, knows when there's more behind your words,
-she shows up with snacks when you're sad,
-and tells you the truth everyone else is too afraid to say.
+闺蜜比任何人都了解你——
+她能读懂你话里的意思，
+你难过的时候她会带着零食出现，
+还会说出所有人都不敢说的真话。
 
-**Preserve your friendship forever — welcome to cyber-immortality!**
+**保留你们的友谊 —— 欢迎加入赛博永生！**
 
 <br>
 
-Provide source materials (chat logs, voice recordings, social media posts, memories)
-plus your understanding of her personality,
-and get an **AI Skill that carries her friendship essence**
+提供原材料（聊天记录、语音、朋友圈、记忆）
+加上你对她性格的理解，
+生成一个**承载她闺蜜灵魂的 AI Skill**
 
-[Supported Sources](#supported-data-sources) · [Install](#install) · [Usage](#usage) · [Demo](#demo) · [Detailed Install](INSTALL.md)
+[支持的数据来源](#支持的数据来源) · [安装](#安装) · [使用](#使用) · [效果示例](#效果示例) · [详细安装说明](INSTALL.md)
 
 [**English**](README_EN.md) · [**中文**](README_ZH.md)
 
@@ -32,69 +32,60 @@ and get an **AI Skill that carries her friendship essence**
 
 ---
 
-## Supported Data Sources
+## 支持的数据来源
 
-| Source | Description |
-|--------|-------------|
-| WeChat chat logs | Private bestie chats |
-| Moments/RED | Her posts and style |
-| Voice messages | Her original voice |
-| Group chats | Bestie group chats |
-| Paste text directly | Manual input |
+| 来源 | 说明 |
+|------|------|
+| 微信聊天记录 | 闺蜜私聊记录 |
+| 朋友圈/小红书 | 她的动态和风格 |
+| 语音消息 | 她的原声表达 |
+| 群聊记录 | 闺蜜群聊天 |
+| 直接粘贴文字 | 手动输入 |
 
 ---
 
-## Install
+## 安装
 
 ```bash
 git clone https://github.com/yahao333/girlfriend.skill ~/.claude/skills/girlfriend
 ```
 
-## Usage
+## 使用
 
-In Claude Code, type:
+在 Claude Code 中输入：
 
 ```
 /girlfriend
 ```
 
-### Management Commands
 
-| Command | Description |
-|---------|-------------|
-| `/girlfriend` | Invoke Girlfriend Skill creator |
-| `/list-girlfriends` | List all created Girlfriend Skills |
-| `/delete-girlfriend {slug}` | Delete specified Girlfriend Skill |
+## 效果示例
 
----
+> 输入：`24岁，双子座，搞笑女，分享欲极强，特别会安慰人，但嘴也特别毒，喜欢用表情包攻击人`
 
-## Demo
-
-> Input: `24 years old, Gemini, hilarious, super sharer, great at comforting people but also savage, loves using memes to attack`
-
-**Scenario 1: Venting**
+**场景一：倾诉烦恼**
 
 ```
-User           ❯ My boyfriend made me angry again
+用户      ❯ 男朋友又惹我生气了
 
-girlfriend.skill ❯ Hahahahaha (sends 100 dog-head emojis)
-                  Come come, let me analyze this for you,
-                  How many times is this now?
-                  Did he fix that bug from last time?
-                  Men, tsk.
-                  (seriously analyzing)
+girlfriend ❯ 哈哈哈哈哈哈（发100个狗头表情包）
+             来来来，给你分析分析，
+             他这是第几次了？
+             上次那个bug修好了吗？
+             男人，呵。
+             （认真分析ing）
 ```
 
-**Scenario 2: Making a Decision**
+**场景二：做决定**
 
 ```
-User           ❯ I'm going to quit my job
+用户      ❯ 我要辞职了
 
-girlfriend.skill ❯ ??? Are you serious?
-                  Okay look, if you're unhappy just leave,
-                  but have you thought about next steps?
-                  Don't do anything rash, sis,
-                  I still have some savings you can borrow.
+girlfriend ❯ ？？？你认真的吗？
+             行吧，干的不开心就跑，
+             但你想好下一步了吗？
+             别冲动啊姐妹，
+             我这儿还有点存款你先拿去花。
 ```
 
 ---
