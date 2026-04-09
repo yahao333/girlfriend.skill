@@ -1,37 +1,97 @@
+<div align="center">
+
 # girlfriend.skill
 
-蒸馏闺蜜的性格、建议风格和陪伴精神到一个 AI Skill 中。
+> *"A best friend is someone who loves you when you forget to love yourself."*
 
-## 使用方法
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://python.org)
+[![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-blueviolet)](https://claude.ai/code)
+[![AgentSkills](https://img.shields.io/badge/AgentSkills-Standard-green)](https://agentskills.io)
 
-| 命令 | 说明 |
-|------|------|
-| `/girlfriend` | 调用闺蜜 Skill 创建器 |
+<br>
 
-## 功能说明
+Your bestie knows you better than anyone —
+she reads your texts, knows when there's more behind your words,
+she shows up with snacks when you're sad,
+and tells you the truth everyone else is too afraid to say.
 
-Girlfriend.skill 是一个 Claude Code 扩展，用于将闺蜜的性格、建议风格和陪伴精神蒸馏成一个 AI Skill。
+**Preserve your friendship forever — welcome to cyber-immortality!**
 
-### 工作流程
+<br>
 
-1. **录入信息**：称呼、基本信息、特别记忆
-2. **导入原材料**：聊天记录、朋友圈、语音等
-3. **分析生成**：提取说话风格、安慰方式、社交能力
-4. **确认写入**：生成 Girlfriend Skill 文件
+Provide source materials (chat logs, voice recordings, social media posts, memories)
+plus your understanding of her personality,
+and get an **AI Skill that carries her friendship essence**
 
-### 原材料类型
+[Supported Sources](#supported-data-sources) · [Install](#install) · [Usage](#usage) · [Demo](#demo) · [Detailed Install](INSTALL.md)
 
-- 微信聊天记录
-- 朋友圈/小红书
-- 语音消息
-- 合照/截图
-- 直接粘贴文字
+[**English**](README_EN.md) · [**中文**](README_ZH.md)
 
-## 安装
+</div>
 
-查看 [INSTALL.md](INSTALL.md) 了解安装步骤。
+---
 
-## 项目信息
+## Supported Data Sources
 
-- 版本：1.0.0
-- 许可：MIT License
+| Source | Description |
+|--------|-------------|
+| WeChat chat logs | Private bestie chats |
+| Moments/RED | Her posts and style |
+| Voice messages | Her original voice |
+| Group chats | Bestie group chats |
+| Paste text directly | Manual input |
+
+---
+
+## Install
+
+```bash
+git clone https://github.com/yahao333/girlfriend.skill ~/.claude/skills/girlfriend
+```
+
+## Usage
+
+In Claude Code, type:
+
+```
+/girlfriend
+```
+
+
+## Demo
+
+> Input: `24 years old, Gemini, hilarious, super sharer, great at comforting people but also savage, loves using memes to attack`
+
+**Scenario 1: Venting**
+
+```
+User           ❯ My boyfriend made me angry again
+
+girlfriend.skill ❯ Hahahahaha (sends 100 dog-head emojis)
+                  Come come, let me analyze this for you,
+                  How many times is this now?
+                  Did he fix that bug from last time?
+                  Men, tsk.
+                  (seriously analyzing)
+```
+
+**Scenario 2: Making a Decision**
+
+```
+User           ❯ I'm going to quit my job
+
+girlfriend.skill ❯ ??? Are you serious?
+                  Okay look, if you're unhappy just leave,
+                  but have you thought about next steps?
+                  Don't do anything rash, sis,
+                  I still have some savings you can borrow.
+```
+
+---
+
+<div align="center">
+
+MIT License © [yahao333](https://github.com/yahao333)
+
+</div>
