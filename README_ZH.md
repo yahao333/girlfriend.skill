@@ -2,7 +2,7 @@
 
 # girlfriend.skill
 
-> *"闺蜜就是那个会骂醒你的人，也是会陪你哭到傻逼的人。"*
+> *"A best friend is someone who loves you when you forget to love yourself."*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://python.org)
@@ -11,20 +11,20 @@
 
 <br>
 
-闺蜜比任何人都了解你——
-她能读懂你话里的意思，
-你难过的时候她会带着零食出现，
-还会说出所有人都不敢说的真话。
+Your bestie knows you better than anyone —
+she reads your texts, knows when there's more behind your words,
+she shows up with snacks when you're sad,
+and tells you the truth everyone else is too afraid to say.
 
-**保留你们的友谊 —— 欢迎加入赛博永生！**
+**Preserve your friendship forever — welcome to cyber-immortality!**
 
 <br>
 
-提供原材料（聊天记录、语音、朋友圈、记忆）
-加上你对她性格的理解，
-生成一个**承载她闺蜜灵魂的 AI Skill**
+Provide source materials (chat logs, voice recordings, social media posts, memories)
+plus your understanding of her personality,
+and get an **AI Skill that carries her friendship essence**
 
-[支持的数据来源](#支持的数据来源) · [安装](#安装) · [使用](#使用) · [效果示例](#效果示例) · [详细安装说明](INSTALL.md)
+[数据来源](#支持的数据来源) · [安装](#安装) · [使用](#使用) · [效果示例](#效果示例) · [详细安装说明](INSTALL.md)
 
 [**English**](README_EN.md) · [**中文**](README_ZH.md)
 
@@ -58,15 +58,6 @@ git clone https://github.com/yahao333/girlfriend.skill ~/.claude/skills/girlfrie
 /girlfriend
 ```
 
-### 管理命令
-
-| 命令 | 说明 |
-|------|------|
-| `/girlfriend` | 调用 Girlfriend Skill 创建器 |
-| `/list-girlfriends` | 列出所有已创建的 Girlfriend Skill |
-| `/delete-girlfriend {slug}` | 删除指定 Girlfriend Skill |
-
----
 
 ## 效果示例
 
